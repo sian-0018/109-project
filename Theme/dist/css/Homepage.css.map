@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,AAAA,CACD,UAAU,CAAE,gCAAiC,CAAC,SAAS,CAAC,MAAM,CAC9D",
+    "sources": [
+        "../../frontend/src/page/Homepage.scss"
+    ],
+    "names": [],
+    "file": "Homepage.css"
+}

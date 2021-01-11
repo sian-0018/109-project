@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+        <a href="/home2/all">F.Y.S.</a>
+    </h1>
+    <ul>
+        <li><a href="/home2/all">home</a></li>
+        <li><a href="/home2/cake">cake</a></li>
+        <li><a href="/home2/coffee">coffee</a></li>
+        <li><a href="/home2/dessert">dessert</a></li>
+    </ul>
+</nav>
+    <section class="cakeing">
+        <div class="cake"> 
+        </div>
+        <div class="shop-page">
+            <div class="collection-page">
+              <h1 class="title">coffee</h1>
+              <div class="items">
+
+            <% for(let i=0; i<data.length; i++) { %>
+                  <div class="collection-item" >
+                   <img class="image" src="/img2/coffee/<%= data[i].img %>.png" />
+                   <div class="collection-footer">
+                     <h1 class="name"><%= data[i].head %></h1>
+                     <br>
+                     <br>
+                     <span class="price"><%= data[i].body %></span>
+                   </div>
+                   <a class="custom-button" href="<%= data[i].link %>">$<%= data[i].money %></a>
+                 </div>
+              <% } %>
+                 
+
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    
+     
+
+</body>
+</html>

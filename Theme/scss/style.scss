@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	// 拿掉預設顏色
+	text-decoration: none;
+	color: #7e1d00;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	background-color: #fffce0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+    color: #333;
+    
+}
+
+nav {
+	background-color: #fad679;
+}
+// Nav
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed; //固定
+	width: 100%;
+	padding: 0.7rem 2rem;
+	z-index: 3; //數值高的在上面
+	top: 0;
+	ul {
+		display: flex;
+		padding-right: 3rem;
+		h1 {
+			font-size: larger;
+		}
+		a {
+			color: #7e1d00;
+			padding: 0.45rem;
+			margin: 0 0.25rem;
+
+			&:hover {
+				color: #fffce0;
+			}
+		}
+	}
+}
+
+//
+
+.land {
+	position: relative;
+	width: auto;
+	height: 40rem;
+	margin-right: 0%;
+	background: url('../img/Frame\ 2.png') no-repeat left;
+
+	.content {
+		padding: 13rem 6.5rem;
+		width: 450px;
+		height: 200px;
+		z-index: 2;
+		float: left;
+
+		span {
+			font-size: 1cm;
+			text-decoration: underline;
+			color: rgb(112, 54, 0);
+		}
+		a {
+			padding: 1vh;
+			color: rgb(46, 23, 0);
+			background-color: rgb(255, 165, 46);
+		}
+	}
+	.picture {
+		padding: 5.5rem 6.5rem;
+	}
+	img {
+		float: right;
+		width: 450px;
+		height: 450px;
+		z-index: 3;
+	}
+}
+
+//
+.alling {
+    h1{
+        font-size: 1.2cm;
+    }
+	position: relative;
+	width: auto;
+	height: 100rem;
+	margin-right: 0%;
+	background: url('../img/Frame\ 5.png') no-repeat center;
+	.all {
+        padding: 6.5% 43.5% 1% 43.5%;
+    }
+    .cake{
+        display: flex; 
+        align-items: center;
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+            width: 450px;
+            height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            float: right;
+            border-radius: 25px;
+            top: 2rem;
+
+            
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: left;
+            border-radius: 25px;
+            color: rgb(198, 172, 185);
+
+            font-size: 1.2cm;
+        }
+        
+    }
+    .coffee{ 
+        display: flex; 
+        align-items: center;
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+		    width: 450px;
+		    height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            float: right;
+            border-radius: 25px;
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: left;
+            border-radius: 25px;
+            color: rgb(164, 90, 56);
+            font-size: 1.2cm;
+        }
+    }
+    
+    .dessert{
+        z-index: 5;
+        display: flex; 
+        align-items: center; 
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+		    width: 450px;
+		    height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            border-radius: 25px;
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: right;
+            border-radius: 25px;
+            color: rgb(162, 128, 98);
+            font-size: 1.2cm;
+        }
+        
+    }
+    
+}
+
+//cake
+.cakeing {
+    padding: 25px 40px;
+    .cake{
+        padding: 6.5% 50.5% 1% 43.5%;
+    }
+	position: relative;
+	width: auto;
+    text-align:center; 
+    img{
+		width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        z-index: 3;
+        box-shadow:3px 3px 12px rgb(255, 207, 77)
+        
+    }
+    
+    
+}
+.collection-page {
+    display: flex;
+    flex-direction: column;
+    
+    .title {
+      margin: 15px auto;
+      font-size: 1.5cm;
+      color: indianred;
+    }
+  
+    .items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+  
+    }
+  }
+

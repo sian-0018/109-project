@@ -1,0 +1,29 @@
+
+// Nav
+.navbar {
+    background-color: #fad679;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed; //固定
+	width: 100%;
+	padding: 0.7rem 2rem;
+	z-index: 3; //數值高的在上面
+	top: 0;
+	ul {
+		display: flex;
+		padding-right: 3rem;
+		h1 {
+			font-size: larger;
+		}
+		a {
+			color: #7e1d00;
+			padding: 0.45rem;
+			margin: 0 0.25rem;
+
+			&:hover {
+				color: #fffce0;
+			}
+		}
+	}
+}

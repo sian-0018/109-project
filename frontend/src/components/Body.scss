@@ -1,0 +1,151 @@
+.land {
+	position: relative;
+	width: auto;
+	height: 40rem;
+	margin-right: 0%;
+    background: url('../../src/img/Frame\ 2.png') no-repeat left;
+    float: left;
+
+	.content {
+		padding: 13rem 6.5rem;
+		width: 450px;
+		height: 200px;
+		z-index: 2;
+		float: left;
+
+		span {
+			font-size: 1cm;
+			text-decoration: underline;
+			color: rgb(112, 54, 0);
+		}
+		a {
+			padding: 1vh;
+			color: rgb(46, 23, 0);
+			background-color: rgb(255, 165, 46);
+		}
+	}
+	.picture {
+        padding: 6.5rem 6.5rem;
+        float: right;
+	}
+	img {
+		float: right;
+		width: 450px;
+		height: 450px;
+		z-index: 3;
+	}
+}
+
+//
+.alling {
+    h1{
+        font-size: 1.2cm;
+    }
+	position: relative;
+	width: auto;
+	// height: 100rem;
+	// margin-right: 0%;
+	// background: url('../../src/img/Frame\ 5.png') no-repeat center;
+	.all {
+        padding: 6.5% 43.5% 1% 43.5%;
+    }
+    .cake{
+        display: flex; 
+        align-items: center;
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+            width: 450px;
+            height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            float: right;
+            border-radius: 25px;
+            top: 2rem;
+
+            
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: left;
+            border-radius: 25px;
+            color: rgb(198, 172, 185);
+
+            font-size: 1.2cm;
+        }
+        
+    }
+    .coffee{ 
+        display: flex; 
+        align-items: center;
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+		    width: 450px;
+		    height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            float: right;
+            border-radius: 25px;
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: left;
+            border-radius: 25px;
+            color: rgb(164, 90, 56);
+            font-size: 1.2cm;
+        }
+    }
+    
+    .dessert{
+        z-index: 5;
+        display: flex; 
+        align-items: center; 
+        padding: 6rem 5.5rem;
+        width: 70rem;
+        height: 30rem;
+        padding: 1rem 3rem;
+        float: right;
+        img{
+		    width: 450px;
+		    height: 450px;
+            float: left;
+        }
+        p{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            background-color: #ffe299bb;
+            border-radius: 25px;
+        }
+        span{ 
+            padding: 1rem 1rem;
+            margin: auto;
+            float: right;
+            border-radius: 25px;
+            color: rgb(162, 128, 98);
+            font-size: 1.2cm;
+        }
+        
+    }
+    
+}
+
+.a{
+	background: url('../../src/img/Frame\ 5.png') no-repeat center;
+}

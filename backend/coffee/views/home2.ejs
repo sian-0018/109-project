@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="/home2/all">F.Y.S.</a>
+        </h1>
+        <ul>
+            <li><a href="/home2/all">home</a></li>
+            <li><a href="/home2/cake">cake</a></li>
+            <li><a href="/home2/coffee">coffee</a></li>
+            <li><a href="/home2/dessert">dessert</a></li>
+        </ul>
+    </nav>
+    <section class="landing">
+        <div class="land">
+            <div class="content">
+                <div class="detail">
+                    <span >Welcome to F.Y.S. store</span>
+                    <br/>
+                    <!-- <w>_____________________________________________</w> -->
+                    
+                    <br/>
+                    <p>&emsp;&emsp;吵雜城市中的小角落＿＿，
+                        <br/>
+                        <br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注入寧靜的片刻＿＿。</p>
+                        <br/>
+                        <br/>
+                    <a href="#1">Product catalogue</a>
+                </div>
+        </div>
+            <div class="picture">
+                <img src="/img/Frame 4.png" alt="">
+                <div class="phto-bg"></div>
+            </div>     
+      </section>
+    <section class="alling" id="1"> 
+        <div class="all">
+        <h1>
+            Overview
+        </h1>
+        </div>
+        <div>
+        <% for(let i=1; i<data.length; i++) { %>
+            <a class="<%= data[i].product %>" href="/home2/<%= data[i].product %>">
+                <img src="/img/未命名的作品 <%= data[i].img %>.png" alt="">
+                    <span><%= data[i].product %></span>
+                    <p><%= data[i].text %></p>               
+            </a>
+        <% } %>
+            
+            
+            
+        </div>
+    </section>
+
+    
+     
+
+</body>
+</html>
